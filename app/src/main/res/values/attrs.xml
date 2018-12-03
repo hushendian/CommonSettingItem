@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="settingItem">
+        <attr name="itemHeigh" format="dimension"/>
+        <attr name="text" format="string"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="textMargeLeft" format="dimension"/>
+        <attr name="image" format="reference"/>
+        <attr name="imageHeigh" format="dimension"/>
+        <attr name="imageWidht" format="dimension"/>
+        <attr name="imageMarginLeft" format="dimension"/>
+        <attr name="imageMarginRight"  format="dimension"/>
+        <attr name="isShowRedPoint" format="boolean"/>
+    </declare-styleable>
+</resources>

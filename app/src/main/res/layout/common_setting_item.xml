@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:background="?attr/selectableItemBackground">
+
+    <TextView
+        android:id="@+id/tv_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        android:text="about"
+        android:textColor="#0D0E15"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/iv_go"
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical|right"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/next_arrow" />
+
+    <View
+        android:id="@+id/red_point"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/iv_go"
+        android:background="@drawable/update_red_point" />
+
+
+</RelativeLayout>
